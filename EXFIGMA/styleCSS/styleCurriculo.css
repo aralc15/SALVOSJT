@@ -1,0 +1,85 @@
+@import url('https://fonts.google.com/specimen/Krona+One');
+@import url('https://fonts.google.com/specimen/Montserrat?query=Montserrat');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor--primaria: #000000;
+    --cor--secundaria: #F6F6F6;
+    --cor--terciaria: #ffa500;
+
+}
+
+.Curriculo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+body{
+    background-color: var(--cor--primaria);
+    color: var(--cor--secundaria);
+    box-sizing: border-box;
+
+}
+
+.Curriculo_Cabecalho{
+    padding: 2% 0% 0% 10%;
+}
+
+.Curriculo_Cabecalho_menu{
+    display: flex;
+    gap: 80px;
+}
+
+.Curriculo_Cabecalho_menu_link{
+    color: var(--cor--terciaria);
+    text-decoration: none;
+    font-family: 'Krona One', sans-serif;
+
+}
+
+.Curriculo_Cabecalho_menu_link:hover{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.Curriculo__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+
+.Curriculo_conteudo__titulo{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Krona One', sans-serif;
+    text-align: justify;
+    color: var(--cor--terciaria);
+    
+    
+}
+
+.Curriculo__conteudo__texto{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+.Certificado_link{
+    color: var(--cor--terciaria);
+    text-decoration: none;
+}
+
+.Certificado_link:hover{
+    padding: 5px;
+    font-size: 26px;
+}
+
