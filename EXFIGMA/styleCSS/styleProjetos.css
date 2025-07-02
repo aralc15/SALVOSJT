@@ -1,0 +1,104 @@
+@import url('https://fonts.google.com/specimen/Krona+One');
+@import url('https://fonts.google.com/specimen/Montserrat?query=Montserrat');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor--primaria: #000000;
+    --cor--secundaria: #F6F6F6;
+    --cor--terciaria: #ffa500;
+
+}
+
+.Projetos_Cabecalho{
+    padding: 2% 0% 0% 10%;    
+}
+
+.Projetos_Cabecalho_menu{
+    display: flex;
+    gap: 80px;
+
+}
+.Projetos_Cabecalho_menu_link{
+    color: var(--cor--terciaria);
+    text-decoration: none;
+    font-family: 'Krona One',sans-serif;
+}
+
+.Projetos_Cabecalho_menu_link:hover{
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+body {
+  font-family: 'Krona One', sans-serif;
+  margin: 20px;
+  background-color: var(--cor--primaria);
+}
+
+
+
+.Projetos_Conteudo_Titulo{
+    font-size: 36px;
+    color: var(--cor--secundaria);
+    font-weight: bold;
+    font-family: 'Krona One', sans-serif;
+    text-align: justify;
+
+}    
+.Destaque_Titulo{
+    
+    color: var(--cor--terciaria);
+    padding: 10px;
+}
+
+.catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: var(--cor--terciaria);
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 250px;
+  padding: 15px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.card h2 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.card p {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: var(--cor--secundaria);
+  background-color: var(--cor--primaria);
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.card a:hover {
+  background-color: #272727;
+}
